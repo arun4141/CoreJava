@@ -4,7 +4,9 @@ public class circle extends shape {
 	
 	private int radius ;
 	
-	public circle() {}
+	public circle() {
+		
+	}
 
 	public circle(int r) {
 		radius = r; 
