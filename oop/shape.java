@@ -1,39 +1,26 @@
-package com.rays.oop;
+package exercise.oop;
 
-import com.raystech.basic.prime11;
-
-public class shape {
+public abstract class shape {
 	
 	private String color;
-	private int borderWidth ;
+	private String bw;
 	
 	public static final double pi = 3.14;
 	
-		
 	
-	
-	 
 	public String getColor() {
 		return color;
 	}
 	public void setColor(String color) {
 		this.color = color;
 	}
-	public int getBorderWidth() {
-		return borderWidth;
+	public String getBw() {
+		return bw;
 	}
-	public void setBorderWidth(int borderWidth) {
-		this.borderWidth = borderWidth;
+	public void setBw(String bw) {
+		this.bw = bw;
 	}
-	public  void area() {
-		
-	}
-		
 	
-		
-	
-	
-	
-	
+	public abstract double area();
 
 }

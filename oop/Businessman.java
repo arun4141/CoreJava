@@ -1,30 +1,25 @@
-package person.set.get.oop;
+package exercise.oop;
 
-import java.util.Date;
+public class Businessman implements richman {
 
-public class Businessman extends Person {
-	
-	
-	private double income;
-	
-	
-	public Businessman () {
-		
+	@Override
+	public void donation() {
+		// TODO Auto-generated method stub
+		System.out.println("donete for social work");
 	}
 
-
-	public double getIncome() {
-		return income;
+	@Override
+	public void partyc() {
+		// TODO Auto-generated method stub
+		System.out.println("maja ni life");
 	}
-
-
-	public void setIncome(double income) {
-		this.income = income;
-	}
-
-
 	
-	
-	
+	public static void main(String[] args) {
+		richman r = new Businessman();
+		Businessman b = new Businessman();
+		b.donation();
+		b.partyc();
+		}
+            
 
 }

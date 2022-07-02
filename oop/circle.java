@@ -1,21 +1,29 @@
-package com.rays.oop;
+package exercise.oop;
 
 public class circle extends shape {
-	
-	private int radius ;
-	
-	public circle() {
+
+	private int radius;
+
+	public int getRadius() {
+		return radius;
+	}
+
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
+
+	@Override
+	public double area() {
 		
-	}
-
-	public circle(int r) {
-		radius = r; 
-	}
-	 
-	public void area () {
-		double area = shape.pi*radius*radius ;
-		System.out.println(area);
+		return pi*radius*radius;
 	}
 	
+	
+	}
+	
+	
+	 
+	 
 
-}
+
+

@@ -1,19 +1,26 @@
-package com.rays.oop;
+package exercise.oop;
 
-public class TTriangle  {
-	
+public class TTriangle {
 	public static void main(String[] args) {
 		
-		Triangle t = new Triangle(5, 2);
+		Triangle t = new Triangle ();
 		
-		t.setBorderWidth(5);
 		t.setColor("red");
+		t.setBw("de");
+		t.setHight(5);
+		t.setBase(6);
 		
-		System.out.println(t.getBorderWidth());
+		
+		
+		
+		
+		
 		System.out.println(t.getColor());
 		
-		t.area();
-		
+		System.out.println(t.getBw());
+		System.out.println(t.getBase());
+		System.out.println(t.getHight());
+	    System.out.println(t.area());
 	}
 
 }
