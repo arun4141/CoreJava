@@ -27,6 +27,7 @@ public class Q6 {
 		 while (it.hasNext()) {
 			Object object = (Object) it.next();
 			System.out.println(object);
+			System.out.println("---------");
 		 }	
 		 
 			
@@ -40,13 +41,14 @@ public class Q6 {
 			while (iy.hasNext()) {
 				Object object = (Object) iy.next();
 				System.out.println(object);
+				System.out.println("---------");
 				
 				
 			}
 			
 			Set i = new LinkedHashSet<>();
 			
-			i.add(45);		i.add(45);		i.add(45);		i.add(45);		i.add(45);
+			i.add(45);		i.add(78);		i.add(45);		i.add(45);		i.add(45);
 			i.add(45);		i.add(45);		i.add(45);		i.add(45);		i.add(45);
 			
 			
@@ -54,6 +56,7 @@ public class Q6 {
 		while (h.hasNext()) {
 			Object object = (Object) h.next();
 						System.out.println(object);
+						System.out.println("---------");
 		}
 			
 			

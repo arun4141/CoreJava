@@ -8,7 +8,7 @@ public class textEmp1 {
 	
 	public static void main(String[] args) {
 		
-		  Employee1 Em = new Employee1("drun", "umnadloi", 58, 78);
+		  Employee1 Em = new Employee1("d run", "umnadloi", 58, 78);
 		  Employee1 Em1 = new Employee1("chotu", "patel", 74, 65);
 		  
 		  
